@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
 header {
     background-color: rgba(0, 17, 255, 0.315);
     padding: 3rem;
@@ -11,12 +11,9 @@ header {
 
 
 
-
-
-
 .list-header {
     display: flex;
-    justify-content:center ;
+    justify-content: center;
 
 }
 
@@ -24,23 +21,25 @@ header {
     list-style: none;
     margin-right: 10px;
 }
+
 .list-header li a {
     text-decoration: none;
 
 }
 
-#section-iphone{
+#section-iphone {
     background-image: url(imagens/Banner\ 01.jpg);
     padding: 15rem;
     background-position: center;
     background-size: cover;
 }
+
 #section-iphone {
     font-size: 20px;
     font-weight: bold;
 }
 
-#section-iphone button{
+#section-iphone button {
     padding: 0.8rem;
     margin: 5px;
     width: 15rem;
@@ -49,21 +48,25 @@ header {
 }
 
 
-#app { 
-    padding: 10rem;
+#app {
+    padding: 15rem;
     text-align: center;
-    color: aqua;
-    background-image: url()
+    color: rgb(0, 0, 0);
+    background-image: url(imagens/Sem\ Título-1.png);
+    background-size: cover;
 }
 
- footer 
- {
+
+
+
+footer {
     background-color: rgb(51, 49, 49);
-    padding: 7rem;
+    padding: 3rem;
     display: flex;
     justify-content: space-evenly;
     color: white;
- }
+}
+
 text footer {
     text-align: center;
 }
